@@ -1,13 +1,3 @@
-It is a project which is similar to discord with chat options enabled.This Project also integerated  with firebase for Login and user management.The voice functionality is in progress.
-
-
-
-
-
-
-
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts

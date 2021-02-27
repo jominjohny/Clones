@@ -1,0 +1,96 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    background-color: #363a3f;
+    height: 100vh;
+}
+.chat__messages{
+    flex: 1;
+    overflow: scroll;
+
+}
+/* for chrome safari and opera */
+.chat__messages::-webkit-scrollbar{
+    display: none;
+}
+
+.chat__messages{
+        /* IE and edge */
+        -ms-overflow-style: none;
+        /* firefox */
+        scrollbar-width: none;
+}
+
+.chat__input{
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    border-top: 1px solid gray;
+    background-color: #474b53;
+}
+.chat__input>.MuiSvgIcon-root{
+    color: white;
+    cursor: pointer;
+ }
+
+.chat__input>form>input{
+    padding: 15px;
+    background: transparent;
+    border: none;
+    width: 100%;
+    outline-width: 0;
+    color: white;
+    font-size: large;
+}
+.chat__input>form{
+    flex: 1;
+}
+.chat__inputButton{
+    display: none;
+}
+
+.chat__inputIcons>.MuiSvgIcon-root{
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+/* .chat__inputIcons>.MuiSvgIcon-root:hover{
+   color: white;
+} */
+
+.chat__inputIconsPicker{
+    position: absolute;
+    z-index: 10; 
+    width: 100%;
+    height: 100px;
+    padding-bottom: 100px;
+}
+.chat__inputForm{
+    display: flex;
+    position: relative;
+    
+}
+.chat__inputForm>.MuiSvgIcon-root{
+    padding: 5px;
+    
+}
+.chat__inputForm>.MuiSvgIcon-root:hover{
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.chat__inputForm>.emoji-picker-react {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    margin-right: 50px;
+    
+    
+}
+
